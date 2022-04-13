@@ -8,6 +8,8 @@ function vypocitejBMI() {
     return BMI;
 }
 
+// ("input[name=vaha]") / tohle muzeme nahradit id html
+
 document.querySelectorAll('input').forEach((element) => {
 element.addEventListener('change', vypocitejBMI);
 });
@@ -20,3 +22,6 @@ function vypocitejVypisBMI() {
 function vypisBMI(BMI) {
     document.querySelector("#vysledek > span").innerHTML = BMI;
 }
+
+// test pro github
+
